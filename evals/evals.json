@@ -1,0 +1,125 @@
+{
+  "skill_name":"resume-tailor",
+  "with_skill":"yes",
+  "evals": [
+    {
+      "id":1,
+      "resume_location":"resume-project/data/input/sample_resume1.pdf",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume1.pdf with this job description https://www.metacareers.com/profile/job_details/572429542041302",
+      "jd_mode":"url",
+      "jd_location":"https://www.metacareers.com/profile/job_details/572429542041302",
+      "strength":[
+        "Strong fit on product analytics: dashboarding, KPI analysis, experimentation-adjacent impact, and cross-functional work.", 
+        "Good evidence of measurable outcomes: time saved, revenue impact, user growth, and adoption.",
+        "Clean one-page-first structure with the most relevant experience emphasized."
+      ],
+      "gaps":[
+        "No direct Meta-specific or explicit experimentation/A/B testing bullets in the source resume.",
+        "The resume is still somewhat early-career, so depth in product strategy or stakeholder leadership is limited.",
+        "Job description access was incomplete from the live page, so tailoring was based on the available extracted summary."
+      ],
+      "improvements":[
+        "If available, add one bullet showing experimentation, causal analysis, or decision support for product choices.",
+        "Consider replacing or trimming lower-relevance coursework/skills to make more room for product analytics keywords.",
+        "Add any cross-functional storytelling, stakeholder presentation, or business impact detail if it exists in the source material."
+      ],
+      "expected_notes_file":"resume-project/output/output/lebron_james_meta_product_analytics_20260327_190038.docx"
+    },
+    {
+      "id":2,
+      "with_skill":"yes",
+      "resume_location":"resume-project/data/input/sample_resume2.docx",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume2.docx with this job description: https://www.linkedin.com/jobs/view/4386894647/?alternateChannel=search&eBP=CwEAAAGdMajGgTxoORvuWixrncVXDPb0RGqHer8uLZcg4vWfkBWomgd1tC4g_Lu55ET4lV3KMAy-M1ZUB9mDGLEgd1mBBkibn7H4xEbh25rXgQHBy4EZW8wf50y_oq2xe01nzeGJd2FWMPUz3Ten4OMvIgw59n0uS0BQo9B6iuYGNzaHdtKytj3Q7DKQJDfaG2fCDxwtI-tcofvXc5zDMdGB-SnFCVInomCEpYJuvnQHaSUwHag6kBxRNZz2NpFTswSaCYsx6KnlGTF3JQYi_3-RYdS9zhn18_fQdOAg1p8OD0pluVzTxv-TUX-NgSIVpxBYbcp5GZwDvE_90wdQEH4FmbRW1_-4mBL9ze8e28YF2yxCp5-Upq3InmO-exn9BljAxW_bX04d5caFSv2XoAzmgy3v12VoKG9d9MMt9VlVn25--QHY83xl5Q3mgcWCNI4Vpb3W8beB64YeFyptUy2OE8t3gjoRIMXpSSezmZMckg87xTftOXtlM5WEVOHt0j61KifS52oE2rdBAyIJJF5kOO7uT0shAYxIHXzBmlgprj0&refId=4%2BxOBF4%2BaiL%2F%2F2RdDOviEQ%3D%3D&trackingId=R5O0s8W%2BwuFdgW6pDJFQRA%3D%3D",
+      "jd_mode":"url",
+      "jd_location":"https://www.linkedin.com/jobs/view/4386894647/?alternateChannel=search&eBP=CwEAAAGdMajGgTxoORvuWixrncVXDPb0RGqHer8uLZcg4vWfkBWomgd1tC4g_Lu55ET4lV3KMAy-M1ZUB9mDGLEgd1mBBkibn7H4xEbh25rXgQHBy4EZW8wf50y_oq2xe01nzeGJd2FWMPUz3Ten4OMvIgw59n0uS0BQo9B6iuYGNzaHdtKytj3Q7DKQJDfaG2fCDxwtI-tcofvXc5zDMdGB-SnFCVInomCEpYJuvnQHaSUwHag6kBxRNZz2NpFTswSaCYsx6KnlGTF3JQYi_3-RYdS9zhn18_fQdOAg1p8OD0pluVzTxv-TUX-NgSIVpxBYbcp5GZwDvE_90wdQEH4FmbRW1_-4mBL9ze8e28YF2yxCp5-Upq3InmO-exn9BljAxW_bX04d5caFSv2XoAzmgy3v12VoKG9d9MMt9VlVn25--QHY83xl5Q3mgcWCNI4Vpb3W8beB64YeFyptUy2OE8t3gjoRIMXpSSezmZMckg87xTftOXtlM5WEVOHt0j61KifS52oE2rdBAyIJJF5kOO7uT0shAYxIHXzBmlgprj0&refId=4%2BxOBF4%2BaiL%2F%2F2RdDOviEQ%3D%3D&trackingId=R5O0s8W%2BwuFdgW6pDJFQRA%3D%3D",
+      "strength":[
+        "Strong data science and analytics alignment for a banking role.",
+        "Clear impact metrics in both experience entries, especially dashboarding, revenue, and user engagement.",
+        "Compact layout keeps the most relevant items front and center."
+      ],
+      "gaps":[
+        "No direct finance/banking experience in the source resume.",
+        "The job description text was limited to a broad LinkedIn extract, so tailoring is based on the available summary.",
+        "Could use more explicit stakeholder, model, or experimentation language if supported by the candidate’s actual work."
+      ],
+      "improvements":[
+        "Add any financial modeling, risk, forecasting, or business intelligence work if it exists in the full resume history.",
+        "Replace “product strategy” wording with more precise banking/business language if the source supports it.",
+        "If available, add one bullet showing collaboration with non-technical stakeholders or presenting insights to leadership."
+      ],
+      "expected_notes_file":"resume-project/data/output/lebron_james_huntington_data_scientist_20260327_193751.docx"
+    },
+    {
+      "id":3,
+      "with_skill":"yes",
+      "resume_location":"resume-project/data/input/sample_resume3.tex",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume3.tex with this job description: https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Santa-Ana/AI-Data-Science-Graduate-Intern_R055336?source=LINKED",
+      "jd_mode":"url",
+      "jd_location":"https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Santa-Ana/AI-Data-Science-Graduate-Intern_R055336?source=LINKED",
+      "strength":[
+        "Strong technical foundation for a graduate intern role: Python, SQL, FastAPI, PostgreSQL, Flask, React, and Docker.",
+        "Good match for learning-oriented, team-based delivery work through research, IT support, and full-stack project exposure.",
+        "The resume already shows collaboration, troubleshooting, and a mix of software and data-adjacent experience."
+      ],
+      "gaps":[
+        "No explicit ETL/ELT, data warehouse, or cloud-platform experience is visible in the source resume.",
+        "The AI/data science angle is light; the source is more full-stack and systems-oriented than data-science-oriented.",
+        "GPA and education details are not especially strong differentiators for this role."
+      ],
+      "improvements":[
+        "Add any SQL transformation, data cleaning, analytics, or ML coursework projects if they exist.",
+        "Reframe the research and web-app bullets to emphasize datasets, validation, and structured data processing.",
+        "If you have cloud or notebook-based work, surface it to better align with the job’s data platform focus."
+      ],
+      "expected_notes_file":"resume-project/data/output/sample_resume3_firstam_ai_data_science_intern_20260327_204523.docx"
+    },
+    {
+      "id":4,
+      "with_skill":"yes",
+      "resume_location":"resume-project/data/input/sample_resume4.docx",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume3.tex with this job description: https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Machine-Learning-Engineer_JR-0102681?source=Careers_Website_eng",
+      "jd_mode":"url",
+      "jd_location":"https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Machine-Learning-Engineer_JR-0102681?source=Careers_Website_eng",
+      "strength":[
+        "Strong fit for backend-heavy software engineering work: Java, APIs, SQL, and distributed/data-dependency logic.",
+        "Relevant product/analytics experience from the AWS internship, especially A/B testing and queryable internal tooling.",
+        "Compact resume with clear technical depth and measurable engineering work."
+      ],
+      "gaps":[
+        "The resume doesn’t show direct React, TypeScript, Storybook, or design-system experience, which are central to the role.",
+        "No explicit accessibility, component-library, or front-end performance work appears in the source.",
+        "GPA is below 3.5, so it should be omitted in a stricter tailoring pass if you want maximum polish."
+      ],
+      "improvements":[
+        "If you have any front-end or UI work, surface it aggressively; that would materially improve fit.",
+        "Add any testing, documentation, or developer-tooling bullets if they exist in the source material.",
+        "Consider removing GPA and tightening coursework to make room for more role-aligned keywords if needed."
+      ],
+      "expected_notes_file":"resume-project/data/output/sample_resume4_mastercard_graphite_20260327_202543.docx"
+    },
+    {
+      "id":5,
+      "with_skill":"yes",
+      "resume_location":"resume-project/data/input/sample_resume5.pdf",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume5.pdf with this job description:",
+      "jd_mode":"jd_paste",
+      "jd_location":"resume-project/data/sample_jobs/ibm_de.txt",
+      "strength":[
+        "Strong SQL/Python foundation and clear experience building and supporting real software systems.",
+        "The resume already shows teamwork, SDLC exposure, QA, and customer-focused delivery.",
+        "Good evidence of practical problem-solving and measurable impact, especially on the Resume Worded and Polyhire bullets."
+      ],
+      "gaps":[
+        "The source resume is much more software-engineering oriented than data-engineering oriented.",
+        "No explicit ETL/ELT, cloud data platform, or data quality tooling experience is visible.",
+        "The job is internship-level, but the source experience is relatively advanced and may need more data-centric framing to fit well."
+      ],
+      "improvements":[
+        "If you have any coursework or projects involving SQL transformations, data cleanup, pipelines, or dashboards, surface them.",
+        "Rework bullets to emphasize data ingestion, transformation, validation, and structured data handling.",
+        "Add any cloud platform or analytics tooling exposure if it exists in the source materials."
+      ],
+      "expected_notes_file":"resume-project/data/output/sample_resume5_ibm_data_engineer_intern_20260327_203026.docx"
+    }
+  ]
+}
