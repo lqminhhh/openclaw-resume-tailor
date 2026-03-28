@@ -19,7 +19,7 @@ For each run, the skill should:
 1. Read a source resume from a supported file format.
 2. Read a target job description from pasted text, a local file, or a URL.
 3. Generate a tailored resume internally in a strict markdown schema.
-4. Render exactly one final `.docx` file into [`output/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/output).
+4. Render exactly one final `.docx` file into `output/`
 5. Return only a concise result payload:
    - `output_file`
    - `strengths`
@@ -76,38 +76,26 @@ resume-tailor/
     └── utils.py
 ```
 
-## Core Files
-
-[`SKILL.md`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/SKILL.md) defines the OpenClaw-facing behavior, rules, output contract, and markdown schema.
-
-[`scripts/parse_resume.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/parse_resume.py) extracts normalized text from a resume file.
-
-[`scripts/parse_job.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/parse_job.py) resolves a job description from pasted text, a local file, or a URL and removes common low-value boilerplate.
-
-[`scripts/render_output.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/render_output.py) converts the strict markdown resume into a formatted DOCX and saves a timestamped file.
-
-[`scripts/utils.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/utils.py) contains shared helpers for normalization, output naming, and directory creation.
-
 ## End-to-End Skill Flow
 
 OpenClaw should use the skill roughly like this:
 
 1. Parse the input resume.
 2. Parse or fetch the job description.
-3. Ask the model to produce a tailored resume in the strict markdown format from [`SKILL.md`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/SKILL.md).
+3. Ask the model to produce a tailored resume in the strict markdown format from [`SKILL.md`](https://github.com/lqminhhh/openclaw-resume-tailor/blob/main/SKILL.md).
 4. Render the markdown into a single `.docx`.
 5. Return the saved output path plus concise review notes.
 
 ## Add This Skill to OpenClaw
 
-To make this skill available in OpenClaw, place the entire [`resume-tailor/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor) directory inside the OpenClaw skills directory so that OpenClaw can discover [`SKILL.md`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/SKILL.md).
+To make this skill available in OpenClaw, place the entire `resume-tailor/` directory inside the OpenClaw skills directory so that OpenClaw can discover [`SKILL.md`](https://github.com/lqminhhh/openclaw-resume-tailor/blob/main/SKILL.md).
 
 Typical setup:
 
 1. Copy this folder into your OpenClaw skills path.
 2. Keep the folder name as `resume-tailor`.
-3. Make sure [`SKILL.md`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/SKILL.md) stays at the root of the skill folder.
-4. Keep the helper scripts in [`scripts/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts) and the generated files in [`output/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/output).
+3. Make sure [`SKILL.md`](https://github.com/lqminhhh/openclaw-resume-tailor/blob/main/SKILL.md) stays at the root of the skill folder.
+4. Keep the helper scripts in `scripts/` and the generated files in `output/`.
 
 The resulting layout inside OpenClaw should look like:
 
@@ -135,7 +123,7 @@ Or with a job URL:
 Use the resume-tailor skill to tailor my attached resume for this role: https://example.com/job-posting
 ```
 
-OpenClaw should then use the skill instructions in [`SKILL.md`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/SKILL.md), run the local parsing/rendering workflow, and save one final `.docx` file in [`output/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/output).
+OpenClaw should then use the skill instructions in [`SKILL.md`](https://github.com/lqminhhh/openclaw-resume-tailor/blob/main/SKILL.md), run the local parsing/rendering workflow, and save one final `.docx` file in `output/`.
 
 ## Local Script Usage
 
@@ -212,29 +200,29 @@ jane@example.com | 555-555-5555 | LinkedIn
 
 The easiest manual test is:
 
-1. Pick a resume from [`input/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/input).
-2. Pick a job description from [`sample_jobs/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/sample_jobs) or use a live URL.
+1. Pick a resume from `input/`.
+2. Pick a job description from `sample_jobs/` or use a live URL.
 3. Run the skill through OpenClaw with both inputs.
-4. Confirm that exactly one new `.docx` file appears in [`output/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/output).
+4. Confirm that exactly one new `.docx` file appears in `output/`.
 5. Open the generated file and verify that the content is tailored, compact, and still factually faithful to the source resume.
 
 If you want to test the local pieces independently:
 
-1. Run [`scripts/parse_resume.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/parse_resume.py) on the source resume.
-2. Run [`scripts/parse_job.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/parse_job.py) on the job input.
-3. Provide a strict markdown resume to [`scripts/render_output.py`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/scripts/render_output.py).
+1. Run `scripts/parse_resume.py` on the source resume.
+2. Run `scripts/parse_job.py` on the job input.
+3. Provide a strict markdown resume to `scripts/render_output.py`.
 4. Confirm the renderer writes one timestamped `.docx`.
 
 ## Evals
 
-[`evals/evals.json`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/evals/evals.json) contains sample evaluation cases covering:
+`evals/evals.json` contains sample evaluation cases covering:
 
 - PDF resume + job URL
 - DOCX resume + job URL
 - TEX resume + job URL
 - PDF resume + pasted or file-backed job description
 
-The `expected_notes_file` values point to example outputs already generated in [`output/`](/Users/minhle/Documents/openclaw-takehome/skills/resume-tailor/output).
+The `expected_notes_file` values point to example outputs already generated in `output/`.
 
 ## Current Limitations
 
