@@ -86,7 +86,7 @@ def _add_name(document: Document, text: str) -> None:
     run = paragraph.add_run(text.strip())
     run.bold = True
     run.font.name = "Garamond"
-    run.font.size = Pt(15)
+    run.font.size = Pt(25)
 
 
 def _add_contact_line(document: Document, text: str) -> None:
