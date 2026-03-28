@@ -59,6 +59,7 @@ resume-tailor/
 ├── README.md                   # Setup and usage guide
 ├── SKILL.md                    # OpenClaw skill instruction
 ├── evals/  
+│   ├── evaluation.md           # Reflection on how I evaluate prompts
 │   └── evals.json              # Evaluating OpenClaw outputs
 ├── input/                      # Example resume in various formats
 │   ├── sample_resume1.pdf
@@ -222,9 +223,64 @@ If you want to test the local pieces independently:
 - TEX resume + job URL
 - PDF resume + pasted or file-backed job description
 
+The eval file is organized into two groups:
+
+- `with_skill`
+- `without_skill`
+
+Each eval entry includes:
+
+- the resume input
+- the prompt used for the run
+- the job description source
+- the expected output file path
+- strengths, gaps, and improvements captured from the run
+- `assertions`, which describe what I checked for that specific test case
+
 The `expected_notes_file` values point to example outputs already generated in `output/`.
+
+I tested both:
+
+- prompts that explicitly use the skill
+- prompts that do not explicitly use the skill
+
+Overall, both the `with_skill` and `without_skill` prompts worked well in most of the test cases. The system was generally able to read the resume input, process the job description, tailor the resume, and save a new output file.
+
+## Evaluation Findings
+
+What worked well:
+
+- It correctly returned `strengths`, `gaps`, and `improvements` in a concise format.
+- It generated `.docx` output files in the expected location.
+- Most of the workflow defined in `SKILL.md` was followed correctly.
+- URL scraping has not been a major issue in testing so far.
+- The skill generally produced tailored results instead of simply rewriting the original resume without direction.
+- The new eval assertions make it easier to record what each run actually proved, instead of treating every eval as the same kind of check.
+
+Problems observed during testing:
+
+- It is hard to guarantee the best possible `.docx` layout for every resume.
+- Resumes with a lot of experience can push the output beyond one page.
+- Resumes with very little content can leave too much white space.
+- A single renderer setup does not always produce the ideal format across very different resume densities.
+- In some test cases, the system still returned a `.md` file in addition to the `.docx` output, even though the intended behavior is DOCX-only final output.
 
 ## Current Limitations
 
-- URL extraction is best-effort and may be incomplete for dynamic or heavily protected job pages.
+- URL extraction is still best-effort and may be incomplete for dynamic or heavily protected job pages.
+- DOCX formatting is not perfectly consistent across resumes with very different amounts of content.
+- Some runs still leave behind an extra markdown file in addition to the final `.docx`.
 - This repository provides the skill contract plus helper scripts; the actual tailoring step is still performed by the model during the OpenClaw run.
+
+## Next Steps
+
+After this MVP, the next step is to make the skill more reliable and easier to use in a real workflow, not just in controlled eval cases.
+
+- Improve the DOCX renderer so it adapts better to resumes with very different content density.
+- Enforce the final output contract more strictly so the workflow never leaves behind an extra `.md` file.
+- Expand the eval set with more edge cases, such as very short resumes, very long resumes, and messy job descriptions.
+- Make the assertions more standardized so evals can be summarized or scored more automatically later.
+- Add stronger post-generation validation to make sure the final resume still follows the section and output rules in `SKILL.md`.
+- Explore a more productized interface, such as drag-and-drop resume upload through a connected frontend or another platform integrated with OpenClaw UI.
+
+The last idea would make this feel much closer to a complete end-user product by allowing users to upload a resume, provide a job description, preview the result, and download the final DOCX more smoothly.

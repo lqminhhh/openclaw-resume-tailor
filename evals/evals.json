@@ -23,7 +23,14 @@
           "Consider replacing or trimming lower-relevance coursework/skills to make more room for product analytics keywords.",
           "Add any cross-functional storytelling, stakeholder presentation, or business impact detail if it exists in the source material."
         ],
-        "expected_notes_file": "skills/resume-tailor/output/lebron_james_meta_product_analytics_20260327_190038.docx"
+        "expected_notes_file": "skills/resume-tailor/output/lebron_james_meta_product_analytics_20260327_190038.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file.",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "URL is correctly scraped",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       },
       {
         "id": 2,
@@ -46,7 +53,15 @@
           "Replace “product strategy” wording with more precise banking/business language if the source supports it.",
           "If available, add one bullet showing collaboration with non-technical stakeholders or presenting insights to leadership."
         ],
-        "expected_notes_file": "skills/resume-tailor/output/lebron_james_huntington_data_scientist_20260327_193751.docx"
+        "expected_notes_file": "skills/resume-tailor/output/lebron_james_huntington_data_scientist_20260327_193751.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file.",
+          "It also stored .md file in addition to .docx file",
+          "URL is correctly scraped",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       },
       {
         "id": 3,
@@ -69,7 +84,15 @@
           "Reframe the research and web-app bullets to emphasize datasets, validation, and structured data processing.",
           "If you have cloud or notebook-based work, surface it to better align with the job’s data platform focus."
         ],
-        "expected_notes_file": "skills/resume-tailor/output/sample_resume3_firstam_ai_data_science_intern_20260327_204523.docx"
+        "expected_notes_file": "skills/resume-tailor/output/sample_resume3_firstam_ai_data_science_intern_20260327_204523.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file.",
+          "It also stored .md file in addition to .docx file",
+          "URL is correctly scraped",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       },
       {
         "id": 4,
@@ -92,7 +115,14 @@
           "Add any testing, documentation, or developer-tooling bullets if they exist in the source material.",
           "Consider removing GPA and tightening coursework to make room for more role-aligned keywords if needed."
         ],
-        "expected_notes_file": "skills/resume-tailor/output/sample_resume4_mastercard_graphite_20260327_202543.docx"
+        "expected_notes_file": "skills/resume-tailor/output/sample_resume4_mastercard_graphite_20260327_202543.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file.",
+          "URL is correctly scraped",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       },
       {
         "id": 5,
@@ -115,7 +145,15 @@
           "Rework bullets to emphasize data ingestion, transformation, validation, and structured data handling.",
           "Add any cloud platform or analytics tooling exposure if it exists in the source materials."
         ],
-        "expected_notes_file": "skills/resume-tailor/output/sample_resume5_ibm_data_engineer_intern_20260327_203026.docx"
+        "expected_notes_file": "skills/resume-tailor/output/sample_resume5_ibm_data_engineer_intern_20260327_203026.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file.",
+          "Pasted job description are correctly parsed",
+          "Resume is correctly being parsed although the initial layout is unusual",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       }
     ],
     "without_skill": [
@@ -140,7 +178,14 @@
           "Added job-relevant keywords only where supported by the source resume",
           "Kept it compact and one-page-first for an early-career internship target"
         ],
-        "expected_notes_file": "skills/resume-tailor/output/tailored_resume_first_am_20260327_215506.docx"
+        "expected_notes_file": "skills/resume-tailor/output/tailored_resume_first_am_20260327_215506.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file although no skill is provided in prompt.",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "URL is correctly scraped",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       },
       {
         "id": 2,
@@ -163,7 +208,15 @@
           "Surfaced leadership/initiative signals from internships and activities",
           "Kept the resume compact and aligned to McKinsey-style problem solving"
         ],
-        "expected_notes_file": "skills/resume-tailor/output/tailored_resume_mckinsey_20260327_221018.docx"
+        "expected_notes_file": "skills/resume-tailor/output/tailored_resume_mckinsey_20260327_221018.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file although no skill is provided in prompt.",
+          "It also stored .md file in addition to .docx file",
+          "Pasted job description are correctly parsed",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       },
       {
         "id": 3,
@@ -186,7 +239,15 @@
           "Tightened the resume into a compact, ATS-friendly one-page-first format",
           "Preserved factual content while making bullets more outcome-focused"
         ],
-        "expected_notes_file": "skills/resume-tailor/output/tailored_resume_meta_20260327_221509.docx"
+        "expected_notes_file": "skills/resume-tailor/output/tailored_resume_meta_20260327_221509.docx",
+        "assertions": [
+          "The final output is generated as a valid .docx file.",
+          "It also stored .md file in addition to .docx file",
+          "URL is correctly scraped",
+          "The resume content closely follows the required strict markdown structure before rendering.",
+          "The rendered document contains noticeable excess whitespace near the end of the page.",
+          "Strengths, gaps, and improvements are correctly identified"
+        ]
       }
     ]
   }
