@@ -1,0 +1,67 @@
+About the job
+Introduction
+
+About The Client Innovation Center (CIC)
+
+IBM Consulting Client Innovation Centers (CICs) are high-delivery, team-based environments where technologists work onsite to build real solutions for real clients.
+
+At CIC, interns collaborate closely with data engineers, data scientists, and consultants to support data platforms, pipelines, and analytics solutions across industries. Our delivery centers are built for learning through delivery, combining hands-on project exposure, structured training, mentorship, and teamwork to help students develop strong data engineering foundations and prepare for early-career technical roles.
+
+This role is ideal for individuals who enjoy working with data, building systems, and learning how large-scale data solutions are delivered in an in-person, collaborative environment.
+
+Your Role And Responsibilities
+
+The Data Engineer Intern role is a developmental, learning-focused position that provides hands-on exposure to data engineering concepts, tools, and delivery practices in a professional consulting environment.
+
+This role is not about owning production pipelines or designing enterprise data architectures on day one. It is about applying academic knowledge, learning how data systems are built and operated, and supporting delivery teams with data ingestion, transformation, and quality activities.
+
+High-performing interns may be considered for conversion into IBM Consulting’s full-time Associate Data Engineer program based on performance and business needs.
+
+As a Data Engineer Intern, You Will
+
+Support data ingestion, transformation, and preparation activities under the guidance of experienced data engineers
+Assist with building and maintaining ETL/ELT pipelines using established tools and frameworks
+Help validate data quality, accuracy, and completeness across datasets
+Contribute to data processing tasks using SQL and programming languages such as Python
+Gain exposure to modern data platforms, including cloud-based data lakes and warehouses
+Participate in Agile or project-based delivery activities such as stand-ups and sprint reviews
+Help document data flows, pipeline logic, and implementation details
+Build technical and professional skills through mentorship, training, and hands-on project work
+
+Required Technical And Professional Expertise
+
+These qualifications are essential for success in the role.
+
+Technical Foundation Skills
+
+Coursework or hands-on experience in Computer Science, Data Science, Engineering, Information Systems, Mathematics, Statistics, or a related technical field
+Basic programming experience in Python or another programming language gained through coursework, labs, or projects
+Foundational understanding of SQL and relational data concepts
+Familiarity with core data concepts such as tables, schemas, transformations, and data validation
+
+Analytical And Learning Skills
+
+Strong analytical and problem-solving skills, with the ability to approach tasks using structured, logical thinking
+Comfortable working onsite in a collaborative, team-based environment
+Ability to work effectively in a technology-driven consulting environment where tools, platforms, and client needs evolve over time
+Willingness to learn new tools, platforms, and data technologies in a delivery setting
+Ability to learn new tools, techniques, and technologies in a delivery setting
+Ability to follow established processes and seek guidance when needed
+
+Education
+
+High School Diploma or GED
+
+Preferred Technical And Professional Experience
+
+Preferred Skills (Nice-to-Haves):
+
+Exposure to ETL/ELT concepts or tools through coursework or projects
+Familiarity with modern data platforms or tools (e.g., dbt, Snowflake, BigQuery, Spark, Airflow, or similar)
+Exposure to cloud platforms (AWS, Azure, Google Cloud, or IBM Cloud) through labs or academic projects
+Experience working with datasets for analytics or machine learning coursework
+Participation in team-based academic projects, hackathons, internships, or capstone courses
+
+Preferred
+
+Currently pursuing a Bachelor’s degree in Computer Science, Data Science, Mathematics, Statistics, Engineering, AI, or a related field.

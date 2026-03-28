@@ -35,7 +35,7 @@ This skill must:
 2. Read the target job description.
 3. Generate the tailored resume internally in strict markdown.
 4. Render exactly one final saved output file.
-5. Save the final output to `resume-project/data/output`.
+5. Save the final output to `skills/resume-tailor/output`.
 6. Render the final output as `DOCX`.
 7. Preserve factual accuracy.
 8. Prefer a compact, one-page-first resume whenever the source content supports it.
@@ -79,7 +79,7 @@ This skill must:
 - Omit weak, redundant, or low-relevance content instead of expanding the document.
 - Avoid repeating the same skills across multiple sections unless necessary.
 - Before finalizing the tailored resume markdown, verify that all section-entry caps above are satisfied.
-- Before finalizing the task, verify that the saved output path points to `resume-project/data/output`.
+- Before finalizing the task, verify that the saved output path points to `skills/resume-tailor/output`.
 
 ## V. Behavioral Guidance
 
@@ -120,7 +120,7 @@ python skills/resume-tailor/scripts/parse_job.py --jd-url "<JOB_URL>"
 ```bash
 python skills/resume-tailor/scripts/render_output.py \
   --content-file "<TAILORED_RESUME_MARKDOWN_FILE>" \
-  --output-dir "resume-project/data/output" \
+  --output-dir "skills/resume-tailor/output" \
   --base-name "<OUTPUT_BASE_NAME>"
 ```
 

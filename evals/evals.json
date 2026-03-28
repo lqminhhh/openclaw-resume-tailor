@@ -4,8 +4,8 @@
   "evals": [
     {
       "id":1,
-      "resume_location":"resume-project/data/input/sample_resume1.pdf",
-      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume1.pdf with this job description https://www.metacareers.com/profile/job_details/572429542041302",
+      "resume_location":"skills/resume-tailor/input/sample_resume1.pdf",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: skills/resume-tailor/input/sample_resume1.pdf with this job description https://www.metacareers.com/profile/job_details/572429542041302",
       "jd_mode":"url",
       "jd_location":"https://www.metacareers.com/profile/job_details/572429542041302",
       "strength":[
@@ -23,13 +23,13 @@
         "Consider replacing or trimming lower-relevance coursework/skills to make more room for product analytics keywords.",
         "Add any cross-functional storytelling, stakeholder presentation, or business impact detail if it exists in the source material."
       ],
-      "expected_notes_file":"resume-project/output/output/lebron_james_meta_product_analytics_20260327_190038.docx"
+      "expected_notes_file":"skills/resume-tailor/output/lebron_james_meta_product_analytics_20260327_190038.docx"
     },
     {
       "id":2,
       "with_skill":"yes",
-      "resume_location":"resume-project/data/input/sample_resume2.docx",
-      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume2.docx with this job description: https://www.linkedin.com/jobs/view/4386894647/?alternateChannel=search&eBP=CwEAAAGdMajGgTxoORvuWixrncVXDPb0RGqHer8uLZcg4vWfkBWomgd1tC4g_Lu55ET4lV3KMAy-M1ZUB9mDGLEgd1mBBkibn7H4xEbh25rXgQHBy4EZW8wf50y_oq2xe01nzeGJd2FWMPUz3Ten4OMvIgw59n0uS0BQo9B6iuYGNzaHdtKytj3Q7DKQJDfaG2fCDxwtI-tcofvXc5zDMdGB-SnFCVInomCEpYJuvnQHaSUwHag6kBxRNZz2NpFTswSaCYsx6KnlGTF3JQYi_3-RYdS9zhn18_fQdOAg1p8OD0pluVzTxv-TUX-NgSIVpxBYbcp5GZwDvE_90wdQEH4FmbRW1_-4mBL9ze8e28YF2yxCp5-Upq3InmO-exn9BljAxW_bX04d5caFSv2XoAzmgy3v12VoKG9d9MMt9VlVn25--QHY83xl5Q3mgcWCNI4Vpb3W8beB64YeFyptUy2OE8t3gjoRIMXpSSezmZMckg87xTftOXtlM5WEVOHt0j61KifS52oE2rdBAyIJJF5kOO7uT0shAYxIHXzBmlgprj0&refId=4%2BxOBF4%2BaiL%2F%2F2RdDOviEQ%3D%3D&trackingId=R5O0s8W%2BwuFdgW6pDJFQRA%3D%3D",
+      "resume_location":"skills/resume-tailor/input/sample_resume2.docx",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: skills/resume-tailor/input/sample_resume2.docx with this job description: https://www.linkedin.com/jobs/view/4386894647/?alternateChannel=search&eBP=CwEAAAGdMajGgTxoORvuWixrncVXDPb0RGqHer8uLZcg4vWfkBWomgd1tC4g_Lu55ET4lV3KMAy-M1ZUB9mDGLEgd1mBBkibn7H4xEbh25rXgQHBy4EZW8wf50y_oq2xe01nzeGJd2FWMPUz3Ten4OMvIgw59n0uS0BQo9B6iuYGNzaHdtKytj3Q7DKQJDfaG2fCDxwtI-tcofvXc5zDMdGB-SnFCVInomCEpYJuvnQHaSUwHag6kBxRNZz2NpFTswSaCYsx6KnlGTF3JQYi_3-RYdS9zhn18_fQdOAg1p8OD0pluVzTxv-TUX-NgSIVpxBYbcp5GZwDvE_90wdQEH4FmbRW1_-4mBL9ze8e28YF2yxCp5-Upq3InmO-exn9BljAxW_bX04d5caFSv2XoAzmgy3v12VoKG9d9MMt9VlVn25--QHY83xl5Q3mgcWCNI4Vpb3W8beB64YeFyptUy2OE8t3gjoRIMXpSSezmZMckg87xTftOXtlM5WEVOHt0j61KifS52oE2rdBAyIJJF5kOO7uT0shAYxIHXzBmlgprj0&refId=4%2BxOBF4%2BaiL%2F%2F2RdDOviEQ%3D%3D&trackingId=R5O0s8W%2BwuFdgW6pDJFQRA%3D%3D",
       "jd_mode":"url",
       "jd_location":"https://www.linkedin.com/jobs/view/4386894647/?alternateChannel=search&eBP=CwEAAAGdMajGgTxoORvuWixrncVXDPb0RGqHer8uLZcg4vWfkBWomgd1tC4g_Lu55ET4lV3KMAy-M1ZUB9mDGLEgd1mBBkibn7H4xEbh25rXgQHBy4EZW8wf50y_oq2xe01nzeGJd2FWMPUz3Ten4OMvIgw59n0uS0BQo9B6iuYGNzaHdtKytj3Q7DKQJDfaG2fCDxwtI-tcofvXc5zDMdGB-SnFCVInomCEpYJuvnQHaSUwHag6kBxRNZz2NpFTswSaCYsx6KnlGTF3JQYi_3-RYdS9zhn18_fQdOAg1p8OD0pluVzTxv-TUX-NgSIVpxBYbcp5GZwDvE_90wdQEH4FmbRW1_-4mBL9ze8e28YF2yxCp5-Upq3InmO-exn9BljAxW_bX04d5caFSv2XoAzmgy3v12VoKG9d9MMt9VlVn25--QHY83xl5Q3mgcWCNI4Vpb3W8beB64YeFyptUy2OE8t3gjoRIMXpSSezmZMckg87xTftOXtlM5WEVOHt0j61KifS52oE2rdBAyIJJF5kOO7uT0shAYxIHXzBmlgprj0&refId=4%2BxOBF4%2BaiL%2F%2F2RdDOviEQ%3D%3D&trackingId=R5O0s8W%2BwuFdgW6pDJFQRA%3D%3D",
       "strength":[
@@ -47,13 +47,13 @@
         "Replace “product strategy” wording with more precise banking/business language if the source supports it.",
         "If available, add one bullet showing collaboration with non-technical stakeholders or presenting insights to leadership."
       ],
-      "expected_notes_file":"resume-project/data/output/lebron_james_huntington_data_scientist_20260327_193751.docx"
+      "expected_notes_file":"skills/resume-tailor/output/lebron_james_huntington_data_scientist_20260327_193751.docx"
     },
     {
       "id":3,
       "with_skill":"yes",
-      "resume_location":"resume-project/data/input/sample_resume3.tex",
-      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume3.tex with this job description: https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Santa-Ana/AI-Data-Science-Graduate-Intern_R055336?source=LINKED",
+      "resume_location":"skills/resume-tailor/input/sample_resume3.tex",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: skills/resume-tailor/input/sample_resume3.tex with this job description: https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Santa-Ana/AI-Data-Science-Graduate-Intern_R055336?source=LINKED",
       "jd_mode":"url",
       "jd_location":"https://firstam.wd1.myworkdayjobs.com/firstamericancareers/job/USA-California-Santa-Ana/AI-Data-Science-Graduate-Intern_R055336?source=LINKED",
       "strength":[
@@ -71,13 +71,13 @@
         "Reframe the research and web-app bullets to emphasize datasets, validation, and structured data processing.",
         "If you have cloud or notebook-based work, surface it to better align with the job’s data platform focus."
       ],
-      "expected_notes_file":"resume-project/data/output/sample_resume3_firstam_ai_data_science_intern_20260327_204523.docx"
+      "expected_notes_file":"skills/resume-tailor/output/sample_resume3_firstam_ai_data_science_intern_20260327_204523.docx"
     },
     {
       "id":4,
       "with_skill":"yes",
-      "resume_location":"resume-project/data/input/sample_resume4.docx",
-      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume3.tex with this job description: https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Machine-Learning-Engineer_JR-0102681?source=Careers_Website_eng",
+      "resume_location":"skills/resume-tailor/input/sample_resume4.docx",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: skills/resume-tailor/input/sample_resume4.docx with this job description: https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Machine-Learning-Engineer_JR-0102681?source=Careers_Website_eng",
       "jd_mode":"url",
       "jd_location":"https://workday.wd5.myworkdayjobs.com/en-US/Workday/job/Machine-Learning-Engineer_JR-0102681?source=Careers_Website_eng",
       "strength":[
@@ -95,15 +95,15 @@
         "Add any testing, documentation, or developer-tooling bullets if they exist in the source material.",
         "Consider removing GPA and tightening coursework to make room for more role-aligned keywords if needed."
       ],
-      "expected_notes_file":"resume-project/data/output/sample_resume4_mastercard_graphite_20260327_202543.docx"
+      "expected_notes_file":"skills/resume-tailor/output/sample_resume4_mastercard_graphite_20260327_202543.docx"
     },
     {
       "id":5,
       "with_skill":"yes",
-      "resume_location":"resume-project/data/input/sample_resume5.pdf",
-      "prompt":"use resume-tailor skill to help me tailor the following resume: resume-project/data/input/sample_resume5.pdf with this job description:",
+      "resume_location":"skills/resume-tailor/input/sample_resume5.pdf",
+      "prompt":"use resume-tailor skill to help me tailor the following resume: skills/resume-tailor/input/sample_resume5.pdf with this job description:",
       "jd_mode":"jd_paste",
-      "jd_location":"resume-project/data/sample_jobs/ibm_de.txt",
+      "jd_location":"skills/resume-tailor/sample_jobs/ibm_de.txt",
       "strength":[
         "Strong SQL/Python foundation and clear experience building and supporting real software systems.",
         "The resume already shows teamwork, SDLC exposure, QA, and customer-focused delivery.",
@@ -119,7 +119,7 @@
         "Rework bullets to emphasize data ingestion, transformation, validation, and structured data handling.",
         "Add any cloud platform or analytics tooling exposure if it exists in the source materials."
       ],
-      "expected_notes_file":"resume-project/data/output/sample_resume5_ibm_data_engineer_intern_20260327_203026.docx"
+      "expected_notes_file":"skills/resume-tailor/output/sample_resume5_ibm_data_engineer_intern_20260327_203026.docx"
     }
   ]
 }
